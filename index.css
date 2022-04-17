@@ -1,0 +1,90 @@
+.ma{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+    margin-left: 30px;
+    margin-top: 35px;
+        
+}
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:500px;
+        width:600px;
+        border: 1px solid grey;
+        border-radius: 10px;
+    }
+    /* #searchbar{
+        border: 2px springgreen solid;
+        width: 30%;
+        height: 120px;
+        border-radius: 10px;
+        margin: auto;
+        
+    
+    } */
+         input{
+        margin-left: 20px;
+        border-radius: 20px;
+        height: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    button{
+        margin-top: 30px;
+        padding: 15px;
+        margin-left: 30px;
+        border-radius: 10px;
+        background-color: rgb(119, 204, 119);
+        color: white;
+        border: none;
+    }
+    label{
+        color: #234;
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    #main{
+        height: 600px;
+        border:2px solid rgb(56, 206, 56);
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        margin-top: 120px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3)
+         0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+         border-radius: 50px;
+
+    }
+    #container{
+        border: 2px solid grey;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding-left: 200px;
+        /* padding-top: 50px; */
+        font-size: 20px;
+        font-family:sans-serif;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+
+
+    }
+    #city{
+        margin-top: 20px;
+        height: 30px;
+        width: 200px;
+        border:1px solid grey;
+        border-radius: 5px;
+    }
+    #s1{
+    font-family: sans-serif;
+    }
+    #c1{
+        border: 1px solid blue;
+        height: 300px;
+        width: 30%;
+        margin: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
